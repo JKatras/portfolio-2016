@@ -335,7 +335,7 @@ blockquote footer {
 
 .show-mobile:active,
 .show-mobile:focus {
-  outline: none;
+  outline: 1px solid #F7FAAC;
 }
 
 .mobile-nav {
