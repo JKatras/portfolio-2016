@@ -21,4 +21,17 @@ $(function() {
   $('.show-mobile').click(function() {
     $('#nav-wrap').toggleClass('hide-mobile');
   });
+
+
+  $('.project-link').on("click", function(event){
+  
+    ga('send', 'event', {
+      eventCategory: 'Links',
+      eventAction: 'click',
+      eventLabel: 'CodePen Link',
+      transport: 'beacon'
+    });
+    console.log('ga event fired');
+  
+  });
 });
