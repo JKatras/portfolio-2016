@@ -216,6 +216,7 @@ blockquote p {
 
 blockquote footer {
   font-size: 1em;
+  color:#333;
 }
 
 #projects,
@@ -300,7 +301,7 @@ blockquote footer {
 #page-footer {
   margin-top: 70px;
   padding: 20px 15px 0;
-  background-color: #888;
+  background-color: #5a5a5a;
 }
 
 #page-footer ul {
